@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,400;1,700&display=swap');
+@import url(//db.onlinewebfonts.com/c/6744a2860d99bdb6197392f4e8e8d153?family=Cardiff);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    
+}
+header{
+    /* font-family: 'DM Serif Display', serif; */
+    font-family: 'Karla', sans-serif;
+    
+}
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+  
+   
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+
+   
+}
+.showcase{
+    background: hsl(256, 26%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.svg2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 450px;
+}
+.jp1{
+    margin-top: 80px;
+    width: 450px;
+    margin-left: 110px;
+}
+.showcase .container{
+    display: flex;
+}
+.btn1{
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-top: 20px;
+    z-index: 1;
+    background: transparent;
+    color: white;
+}
+.btn1:Hover{
+    padding: 10px 20px;
+    border: 1px solid black;
+    margin-top: 20px;
+    z-index: 1;
+    background: white;
+    color: black;
+}
+.svg3{
+    position: absolute;
+    left: 0;
+    margin-top: 350px;
+    
+}
+.svg4{
+    height:165px;
+    width: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+.liid:after{
+    content: "";
+    width: 150px;
+    height: 1px;
+    position: absolute;
+    left: 140px;
+    top: 20%;
+    background: #CECCD1;
+}
+.liid2:after{
+    content: "";
+    width: 150px;
+    height: 1px;
+    position: absolute;
+    left:140px;
+    top: 130%;
+    background: #CECCD1;
+}
+.liid3:after{
+    content: "";
+    width: 1055px;
+    height: 1px;
+    position: absolute;
+    left:150px;
+    top: 45%;
+    background: #CECCD1;
+}
+.p{
+    width: 500px;
+    margin: 0;
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.qoraal{
+    color: white;
+    margin-top: 160px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.list.show{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    background-color: hsl(256, 26%, 20%);
+}
+.list li{
+    list-style-type: none;
+    padding: 12px;
+    font-weight: 100px;
+    line-height: 7px;
+    font-size: 16px;
+
+}
+
+a{
+    text-decoration: none;
+    padding: 8px;
+    color: black;
+    font-size: 12px;
+    
+    
+}
+.humberger{
+    background: transparent;
+
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 8px;
+}
+.btn{
+    padding: 10px;
+    width: 150px;
+    margin-left: 110px;
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+}
+.btn:Hover{
+    padding: 10px 20px;
+    border: 1px solid white;
+    margin-top: 0px;
+    z-index: 1;
+    background: black;
+    color: white;
+}
+.info{
+    margin-top: 300px;
+}
+h3{
+    padding-top: 20px;
+}
+h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.find{
+    font-size: 40px;
+    line-height: 40px;
+}
+.pp{
+    padding-top: 20px;
+    width: 400px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #87808C;;
+}
+.icon1{
+    padding: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.ciwaan{
+    margin-left: 30px;
+}
+.black{
+    background:  hsl(256, 26%, 20%);
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: relative;
+    margin-top: 50px;
+}
+footer{
+    background:hsl(0, 0%, 98%);
+    position: relative;
+    padding: 20px;
+    margin-top: 90px;
+}
+.svg5{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.hoose{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    z-index: 1;
+    
+}
+.sare{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    z-index: 1;
+}
+.hoose h3{
+    color: #CECCD1;
+    font-size: 13px;
+}
+.hoose h4{
+    font-size: 13px;
+    margin-top: 15px;
+}
+.logoo{
+    z-index: 1;
+
+}
+.svg7{
+    display: none;
+}
+.svg6{
+    display: none;
+}
+.svg8{
+    display: none;
+}
+@media only screen and (max-width: 760px){
+   .humberger{
+       display: block;
+       border: none;
+       
+   }
+   .showcase .container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+  .showcase{
+      height: 1050px;
+      position: relative;
+  }
+   .container{
+       width: 100%;
+   }
+   .list{
+       display: none;
+   }
+   .qoraal{
+       text-align: center;
+       margin-top: 600px;
+   }
+   .btn{
+    padding: 10px;
+    width: 200px;
+    margin-left: 110px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+   }
+   a{
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+   }
+   .jp1{
+    top: 0;
+      left: 0;
+       margin: 0;
+       right: 0;
+       margin-top: -110px;
+      position: absolute;
+      width: 100%;
+   }
+   .text{
+       text-align: center;
+   }
+   .info{
+       margin-top: 100px;
+   }
+   .icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 70px;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+.black {
+    background:  hsl(256, 26%, 20%);
+    padding: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    position: relative;
+    margin-top: 50px;
+    width: 350px;
+    margin-left: 20px;
+}
+.ciwaan{
+    margin-left: 10px;
+    font-size: 40px;
+    text-align: center;
+}
+.hoose{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    justify-content: space-between;
+    z-index: 1;
+    text-align: center;
+ }
+.liid2{
+    display: none;
+}
+.liid:after{
+    content: "";
+    width: 200px;
+    height: 1px;
+    position: absolute;
+    left:10;
+    top: 120%;
+    background: #CECCD1;
+}
+.liid3{
+    margin-top: 10px;
+}
+.sare{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+    z-index: 1;
+}
+.social-media{
+    margin-top: 40px;
+}
+.liid3:after{
+    content: "";
+    width: 440px;
+    margin-left: 22px;
+    height: 1px;
+    position: absolute;
+    left:0;
+    top: 28%;
+    background: #CECCD1;
+}
+.svg2{
+    display: none;
+}
+.svg3{
+    display: none;
+}
+.svg5{
+    display: none;
+}
+.svg7{
+    display: block;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 360px;
+}
+.svg8{
+    display: block;
+    position: absolute;
+    width: 500px;
+    height: 200px;
+    margin-top: 0px;
+    margin-left: -190px;
+    top: 0;
+}
+.svg6{
+    display: block;
+    position: absolute;
+    top: 0;
+    margin-top: 471px;
+}
+   /* .showcase{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 500px;
+   }
+   .qoraal{
+    color: white;
+    margin-top: 400px;
+    text-align: center;
+}
+.jp1{
+    margin-left: 20px;
+} */
+}

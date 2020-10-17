@@ -1,0 +1,1 @@
+Dhamaan fileska way kuugu dhamaystiranyihiin, Designka ku jira folderka "design" u eekaysii websiteka adigoo adeegsanaya sawiraanta folderka ku jira "images" iyo HTML fileka index.htm, css ama style guideka waxaad ke heleysa fileka "style-guide.md".

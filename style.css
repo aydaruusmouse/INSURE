@@ -2,10 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;1,400;1,700&display=swap');
 @import url(//db.onlinewebfonts.com/c/6744a2860d99bdb6197392f4e8e8d153?family=Cardiff);
-
+.example::-webkit-scrollbar {
+    display: none;
+  }
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container{
@@ -22,9 +25,6 @@ body{
     font-family: 'Karla', sans-serif;
     font-size: 16px;
     box-sizing: border-box;
-    overflow-x: hidden;
-  
-   
 }
 .nav{
     display: flex;
@@ -116,7 +116,6 @@ body{
     background: #CECCD1;
 }
 .p{
-    width: 500px;
     margin: 0;
     margin-top: 20px;
     font-size: 13px;
@@ -138,6 +137,8 @@ body{
     padding: 20px;
     text-align: center;
     background-color: hsl(256, 26%, 20%);
+    justify-content: center;
+    align-items: center;
 }
 .list li{
     list-style-type: none;
@@ -275,25 +276,38 @@ footer{
    .humberger{
        display: block;
        border: none;
-       
+       cursor: pointer;
    }
+ body{
+     overflow-x: hidden;
+     box-sizing: border-box;
+     overflow-y: hidden;
+ }
+
+ *{
+     overflow-x: hidden;
+ }
    .showcase .container{
     display: flex;
     flex-direction: column;
-    position: relative;
 }
   .showcase{
       height: 1050px;
       position: relative;
+      margin: 0;
+      padding: 0;
   }
    .container{
        width: 100%;
+       margin: 0;
+       padding: 0;
    }
    .list{
        display: none;
    }
    .qoraal{
        text-align: center;
+       justify-content: center;
        margin-top: 600px;
    }
    .btn{
@@ -303,6 +317,8 @@ footer{
     border: 1px solid white;
     background: transparent;
     color: white;
+    text-align: center;
+    margin: auto;
    }
    a{
     text-decoration: none;
@@ -311,13 +327,13 @@ footer{
     font-size: 12px;
    }
    .jp1{
-    top: 0;
-      left: 0;
-       margin: 0;
-       right: 0;
-       margin-top: -110px;
-      position: absolute;
-      width: 100%;
+    position: absolute;
+    top:0;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-left: 0;
    }
    .text{
        text-align: center;
@@ -427,20 +443,13 @@ footer{
     top: 0;
     margin-top: 471px;
 }
-   /* .showcase{
+.list.show{
     display: flex;
+    width: 100%;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    height: 500px;
-   }
-   .qoraal{
-    color: white;
-    margin-top: 400px;
+    padding: 20px;
     text-align: center;
+    background-color: hsl(256, 26%, 20%);
+    
 }
-.jp1{
-    margin-left: 20px;
-} */
 }
